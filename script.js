@@ -61,3 +61,18 @@ function toggleComplete(taskElement) {
             ? "none"
             : "line-through";
 }
+updateCounter();
+
+function updateCounter() {
+    const count = document.querySelectorAll("#taskList li").length;
+    document.getElementById("counter").innerText = "Total Tasks: " + count;
+}
+
+...
+document.getElementById("taskList").appendChild(li);
+updateCounter();
+
+function removeTask(button) {
+    button.parentElement.remove();
+    updateCounter();
+}
