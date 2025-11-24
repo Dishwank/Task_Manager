@@ -17,3 +17,47 @@ function addTask() {
 function removeTask(button) {
     button.parentElement.remove();
 }
+li.innerHTML = `
+    <span onclick="toggleComplete(this)">${taskText}</span>
+    <button onclick="removeTask(this)">Delete</button>
+`;
+
+function toggleComplete(taskElement) {
+    taskElement.style.textDecoration =
+        taskElement.style.textDecoration === "line-through"
+            ? "none"
+            : "line-through";
+}
+li.innerHTML = `
+    <span onclick="toggleComplete(this)">${taskText}</span>
+    <button onclick="removeTask(this)">Delete</button>
+`;
+
+function toggleComplete(taskElement) {
+    taskElement.style.textDecoration =
+        taskElement.style.textDecoration === "line-through"
+            ? "none"
+            : "line-through";
+}
+li.innerHTML = `
+    <span onclick="toggleComplete(this)">${taskText}</span>
+    <button onclick="removeTask(this)">Delete</button>
+`;
+
+function toggleComplete(taskElement) {
+    taskElement.style.textDecoration =
+        taskElement.style.textDecoration === "line-through"
+            ? "none"
+            : "line-through";
+}
+li.innerHTML = `
+    <span onclick="toggleComplete(this)">${taskText}</span>
+    <button onclick="removeTask(this)">Delete</button>
+`;
+
+function toggleComplete(taskElement) {
+    taskElement.style.textDecoration =
+        taskElement.style.textDecoration === "line-through"
+            ? "none"
+            : "line-through";
+}
