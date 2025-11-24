@@ -68,7 +68,7 @@ function updateCounter() {
     document.getElementById("counter").innerText = "Total Tasks: " + count;
 }
 
-...
+
 document.getElementById("taskList").appendChild(li);
 updateCounter();
 
